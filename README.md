@@ -4,6 +4,10 @@
 
 ---
 
+
+## Colab Notebook Link
+[Open in Google Colab](https://colab.research.google.com/drive/1BP86eW18Xxtl44SkRa-XR9PsJX-8MTrZ?usp=sharing)
+
 ## 1. Project Identity
 
 | Field | Details |
