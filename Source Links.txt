@@ -1,0 +1,9 @@
+NCBI KRAS Gene: https://www.ncbi.nlm.nih.gov/gene/3845
+NCBI KRAS mRNA NM_004985.5: https://www.ncbi.nlm.nih.gov/nuccore/NM_004985
+NCBI KRAS Protein NP_004976.2: https://www.ncbi.nlm.nih.gov/protein/NP_004976.2
+UniProt KRAS P01116: https://www.uniprot.org/uniprotkb/P01116/entry
+AlphaFold KRAS P01116: https://alphafold.ebi.ac.uk/entry/P01116
+RCSB PDB 6OIM: https://www.rcsb.org/structure/6OIM
+PubChem Sotorasib: https://pubchem.ncbi.nlm.nih.gov/compound/137278711
+NCBI BLAST: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+GNINA: https://github.com/gnina/gnina
