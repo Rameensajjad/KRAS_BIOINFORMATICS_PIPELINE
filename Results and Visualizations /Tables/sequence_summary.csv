@@ -1,0 +1,6 @@
+Sequence,Accession/Source,Length,File
+KRAS coding DNA,NM_004985.5,567,KRAS_Bioinformatics_Pipeline/sequences/kras_coding_dna.fasta
+KRAS mRNA,Converted from DNA,567,KRAS_Bioinformatics_Pipeline/sequences/kras_mrna.fasta
+Translated KRAS protein,Translated from mRNA,188,KRAS_Bioinformatics_Pipeline/sequences/kras_translated_protein.fasta
+Official KRAS protein,NP_004976.2,188,KRAS_Bioinformatics_Pipeline/sequences/kras_official_protein_NP_004976.2.fasta
+UniProt KRAS protein,P01116,See FASTA,KRAS_Bioinformatics_Pipeline/sequences/kras_uniprot_P01116.fasta

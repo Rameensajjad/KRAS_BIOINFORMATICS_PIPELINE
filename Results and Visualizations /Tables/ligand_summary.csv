@@ -1,0 +1,2 @@
+Ligand,PubChem_CID,Source,SDF_file,PDB_file,PDBQT_file
+Sotorasib / AMG 510,137278711,PubChem,KRAS_Bioinformatics_Pipeline/ligands/sotorasib_pubchem_3d.sdf,KRAS_Bioinformatics_Pipeline/ligands/sotorasib.pdb,KRAS_Bioinformatics_Pipeline/ligands/sotorasib.pdbqt
