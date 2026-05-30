@@ -1,0 +1,2 @@
+Aligned residues: 167
+RMSD: 4.807 Angstrom

@@ -1,0 +1,3 @@
+Average pLDDT: 91.52
+Number of residues: 189
+Residues above 70: 175
