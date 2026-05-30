@@ -1,0 +1,6 @@
+Rank,Hit,Identity_percent,E_value,Alignment_length
+1,"gi|2955773857|gb|PV477844.1| Homo sapiens isolate Obaid3HM KRAS proto-oncogene GTPase transcript variant b (KRAS) mRNA, complete cds",100.0,0.0,567
+2,"gi|2697689179|ref|XM_054664451.2| PREDICTED: Pan troglodytes KRAS proto-oncogene, GTPase (KRAS), transcript variant X3, mRNA",100.0,0.0,567
+3,"gi|2695771275|ref|XM_054443149.2| PREDICTED: Pongo pygmaeus KRAS proto-oncogene, GTPase (KRAS), transcript variant X3, mRNA",100.0,0.0,567
+4,"gi|2697689178|ref|XM_528758.9| PREDICTED: Pan troglodytes KRAS proto-oncogene, GTPase (KRAS), transcript variant X2, mRNA",100.0,0.0,567
+5,"gi|2695771274|ref|XM_054443148.2| PREDICTED: Pongo pygmaeus KRAS proto-oncogene, GTPase (KRAS), transcript variant X2, mRNA",100.0,0.0,567
