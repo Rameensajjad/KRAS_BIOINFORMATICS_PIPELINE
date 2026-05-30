@@ -1,0 +1,5 @@
+Selected ligand residue in 6OIM: MOV
+center_x = 1.872
+center_y = -8.260
+center_z = -1.361
+box_size = 22
