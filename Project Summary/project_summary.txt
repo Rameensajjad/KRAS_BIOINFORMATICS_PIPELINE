@@ -1,0 +1,34 @@
+
+Project name: KRAS Bioinformatics Pipeline
+
+Gene: KRAS
+Organism: Homo sapiens
+
+Sequence data:
+- NCBI mRNA accession: NM_004985.5
+- NCBI protein accession: NP_004976.2
+- UniProt accession: P01116
+
+Structure data:
+- AlphaFold model: AF-P01116-F1
+- Experimental PDB used for docking: 6OIM
+
+Ligand:
+- Sotorasib / AMG 510
+- PubChem CID: 137278711
+
+Docking:
+- Software: GNINA
+- Receptor: KRAS G12C from 6OIM
+- Ligand: Sotorasib
+- Docking box: Based on ligand position in 6OIM
+
+Main outputs:
+- DNA, mRNA, and protein FASTA files
+- BLAST XML and CSV
+- AlphaFold and experimental PDB files
+- pLDDT plot and RMSD result
+- Sotorasib ligand files
+- GNINA docking output
+- Docking score table and plot
+- Best docked pose
