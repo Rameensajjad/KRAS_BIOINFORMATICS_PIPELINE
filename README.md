@@ -56,6 +56,26 @@ Cell 8   GNINA molecular docking (10 poses, exhaustiveness 8, seed 42)
    │
 Cell 9   Results extraction, scoring table, plots & 3D visualisation
 ```
+# Environment Setup
+
+| Tool / Library | Type | Purpose |
+|---|---|---|
+| Google Colab | Platform | Cloud-based Jupyter notebook environment with Python 3.10 and GPU (T4) support |
+| GNINA v1.1 | System tool | Molecular docking engine that scores binding poses using physics-based energy and a convolutional neural network |
+| Open Babel | System tool | Converts Sotorasib between chemical file formats (SDF → PDB → PDBQT) and optimises 3D atomic coordinates |
+| wget | System tool | Downloads the GNINA binary from GitHub release links during setup |
+| zip | System tool | Compresses the entire project output into a single downloadable ZIP archive |
+| biopython | Python library | Fetches KRAS sequence from NCBI, parses GenBank/FASTA/PDB files, runs BLAST, and calculates RMSD between structures |
+| requests | Python library | Downloads files from external databases including NCBI, UniProt, AlphaFold, PubChem, and RCSB PDB |
+| pandas | Python library | Organises results into structured tables and saves them as CSV files |
+| matplotlib | Python library | Generates and saves the pLDDT confidence plot and the docking affinity bar chart |
+| py3Dmol | Python library | Renders interactive 3D visualisations of protein structures and the docked ligand inside Colab |
+| rdkit | Python library | Chemistry toolkit included for molecular structure support |
+| os | Standard library | Creates project folders, checks file existence, and manages file paths |
+| re | Standard library | Extracts docking score values per pose from the GNINA compressed SDF output |
+| gzip | Standard library | Reads the compressed GNINA docking output file (.sdf.gz) without manual decompression |
+| subprocess | Standard library | Runs the GNINA binary from within Python and captures output to verify it works correctly |
+| shutil | Standard library | Creates the final ZIP archive of the complete project folder for download |
 
 ---
 
@@ -202,6 +222,7 @@ AlphaFold stores per-residue confidence (pLDDT) in the B-factor column of its PD
 | Average pLDDT | 91.52 / 100 | Very high confidence — backbone highly reliable |
 
 The 4.807 Å RMSD reflects the structural difference between the ligand-bound switch II pocket (6OIM) and the apo state (AlphaFold) — a well-documented conformational change central to the KRAS G12C mechanism. The average pLDDT of 91.52 confirms the AlphaFold model is a reliable structural reference.
+<img src="C:\Users\Rameen_Sajjad\Downloads\KRAS_Bioinformatics_Pipeline\figures" alt="AlphaFold PLDDT Plot" width="500"/>
 
 ---
 
