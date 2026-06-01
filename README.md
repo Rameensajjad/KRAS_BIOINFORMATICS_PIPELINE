@@ -222,7 +222,10 @@ AlphaFold stores per-residue confidence (pLDDT) in the B-factor column of its PD
 | Average pLDDT | 91.52 / 100 | Very high confidence — backbone highly reliable |
 
 The 4.807 Å RMSD reflects the structural difference between the ligand-bound switch II pocket (6OIM) and the apo state (AlphaFold) — a well-documented conformational change central to the KRAS G12C mechanism. The average pLDDT of 91.52 confirms the AlphaFold model is a reliable structural reference.
-<img src="C:\Users\Rameen_Sajjad\Downloads\KRAS_Bioinformatics_Pipeline\figures" alt="AlphaFold PLDDT Plot" width="500"/>
+
+
+![image alt](https://github.com/Rameensajjad/KRAS_BIOINFORMATICS_PIPELINE/blob/f02361c94d802faac9443214dd3c555da33c7245/Results%20and%20Visualizations%20/Figures/alphafold_plddt_plot.png) 
+
 
 ---
 
@@ -360,6 +363,10 @@ obabel kras_sotorasib_gnina_docked.sdf.gz -O kras_sotorasib_best_pose.pdb -f 1 -
 | Ligand-only 3D view | Best pose rendered in py3Dmol as magenta sticks, zoomed to the ligand | Inline Colab viewer |
 | Receptor–ligand complex | Full KRAS receptor as spectrum cartoon + best pose Sotorasib as magenta sticks | `kras_sotorasib_receptor_ligand_visualization.png` |
 | 3D scatter plot | Matplotlib 3D projection of receptor Cα backbone (line) and docked ligand atoms (scatter) | `kras_sotorasib_receptor_ligand_visualization.png` |
+
+
+![image alt](https://github.com/Rameensajjad/KRAS_BIOINFORMATICS_PIPELINE/blob/7368d264eade7fd23b27f83a15845a1c65620140/Results%20and%20Visualizations%20/Figures/GNINA%20Docking%20Score%20-%20Affinity%20Plot.png)
+
 
 **Best pose final summary**
 
